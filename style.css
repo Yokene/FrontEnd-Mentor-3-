@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s ease;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+.image{
+    width: 90px;
+    border-radius: 45px;
+    margin: 20px;
+}
+
+.nav{
+    width: 360px;
+    height: 50px;
+    transition: 0.2s ease;
+    background-color: hsl(0, 0%, 20%);
+    border: 0px solid;
+    color: white;
+    margin: 4px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.nav:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+.description{
+    margin: 20px;
+    font-size: 15px;
+    color:  hsl(0, 0%, 80%);
+    transition: 0.3s ease;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 675px) {
+
+    .attribution{
+        width: 280px;
+        height: 600px;
+        transition: 0.3s ease;
+    }
+
+    .image{
+        width: 90px;
+    }
+
+    .description{
+        font-size: 13px;
+        transition: 0.3s ease;
+    }
+
+    .nav{
+        width: 260px;
+        height: 50px;
+        transition: 0.3s ease;
+    }
+
+}
