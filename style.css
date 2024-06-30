@@ -62,7 +62,7 @@ body{
     font-size: 13px;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 720px) {
 
     .attribution{
         width: 280px;
